@@ -11,6 +11,10 @@ namespace DesignPatternInCore3
             var observerExample = new ObserverExample();
             observerExample.PrintResult();
             Console.WriteLine("*************************End of ObserverPatternExampl************************************");
+            Console.WriteLine("========================================ChainOfResponsibilityExample===============================");
+            var corExample = new ChainOfResponsibilityExample();
+            corExample.PrintResult();
+            Console.WriteLine("*************************End of ChainOfResponsibilityExample************************************");
             Console.ReadKey();
         }
     }
