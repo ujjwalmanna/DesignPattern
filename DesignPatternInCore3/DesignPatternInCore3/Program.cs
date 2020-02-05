@@ -1,4 +1,5 @@
 ﻿using System;
+using ExampleLibrary;
 
 namespace DesignPatternInCore3
 {
@@ -6,7 +7,11 @@ namespace DesignPatternInCore3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("========================================ObserverPatternExample===============================");
+            var observerExample = new ObserverExample();
+            observerExample.PrintResult();
+            Console.WriteLine("*************************End of ObserverPatternExampl************************************");
+            Console.ReadKey();
         }
     }
 }

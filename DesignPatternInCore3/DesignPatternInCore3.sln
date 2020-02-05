@@ -1,17 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29424.173
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternInCore3", "DesignPatternInCore3\DesignPatternInCore3.csproj", "{427070E3-4786-497A-BE6E-E6814889B973}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternInCore3", "DesignPatternInCore3\DesignPatternInCore3.csproj", "{427070E3-4786-497A-BE6E-E6814889B973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalDesignPattern", "CreationalDesignPattern\CreationalDesignPattern.csproj", "{E28419EA-BE88-4A94-9BA5-FD68C5FD7414}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreationalDesignPattern", "CreationalDesignPattern\CreationalDesignPattern.csproj", "{E28419EA-BE88-4A94-9BA5-FD68C5FD7414}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehaviourDesignPattern", "BehaviourDesignPattern\BehaviourDesignPattern.csproj", "{48B16682-C13C-4B3A-AFF8-3EA3E1FC78ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BehaviourDesignPattern", "BehaviourDesignPattern\BehaviourDesignPattern.csproj", "{48B16682-C13C-4B3A-AFF8-3EA3E1FC78ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralDesignPattern", "StructuralDesignPattern\StructuralDesignPattern.csproj", "{EC428DF4-2FC9-444F-AEB2-95CEF6E3CB28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralDesignPattern", "StructuralDesignPattern\StructuralDesignPattern.csproj", "{EC428DF4-2FC9-444F-AEB2-95CEF6E3CB28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentDesignPattern", "ConcurrentDesignPattern\ConcurrentDesignPattern.csproj", "{8DF96AB8-F4B6-4824-BF12-0A9FB2DDEECF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrentDesignPattern", "ConcurrentDesignPattern\ConcurrentDesignPattern.csproj", "{8DF96AB8-F4B6-4824-BF12-0A9FB2DDEECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleLibrary", "ExampleLibrary\ExampleLibrary.csproj", "{E19851E1-899C-48E3-932D-21D5780ABB38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8DF96AB8-F4B6-4824-BF12-0A9FB2DDEECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DF96AB8-F4B6-4824-BF12-0A9FB2DDEECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DF96AB8-F4B6-4824-BF12-0A9FB2DDEECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E19851E1-899C-48E3-932D-21D5780ABB38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E19851E1-899C-48E3-932D-21D5780ABB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E19851E1-899C-48E3-932D-21D5780ABB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E19851E1-899C-48E3-932D-21D5780ABB38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
