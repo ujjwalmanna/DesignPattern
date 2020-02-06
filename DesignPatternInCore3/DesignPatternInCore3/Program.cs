@@ -23,6 +23,10 @@ namespace DesignPatternInCore3
             var decoratorExample = new DecoratorExample();
             decoratorExample.PrintResult();
             Console.WriteLine("*************************End of Decorator Example************************************");
+            Console.WriteLine("========================================Bridge Example===============================");
+            var bridgeExample = new BridgePatternExample();
+            bridgeExample.PrintResult();
+            Console.WriteLine("*************************End of Bridge Example************************************");
 
             Console.ReadKey();
         }
