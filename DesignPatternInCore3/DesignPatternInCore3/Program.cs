@@ -15,6 +15,15 @@ namespace DesignPatternInCore3
             var corExample = new ChainOfResponsibilityExample();
             corExample.PrintResult();
             Console.WriteLine("*************************End of ChainOfResponsibilityExample************************************");
+            Console.WriteLine("========================================FacadeExample===============================");
+            var facadExample = new FacadePatternExample();
+            facadExample.PrintResult();
+            Console.WriteLine("*************************End of FacadeExample************************************");
+            Console.WriteLine("========================================Decorator Example===============================");
+            var decoratorExample = new DecoratorExample();
+            decoratorExample.PrintResult();
+            Console.WriteLine("*************************End of Decorator Example************************************");
+
             Console.ReadKey();
         }
     }
